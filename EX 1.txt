@@ -1,0 +1,51 @@
+fname = input("name: ")
+lname = input("last name: ")
+print (lname + " " + fname)
+
+
+n=int(input("n: "))
+n = str(n)
+a = n # "5" 
+b = n+n
+c = n+n+n
+print (int(a)+int(b)+int(c))
+
+
+
+n=int(input("n: "))
+if n % 2 == 0:
+    print ("paire")
+else:
+    print("inpaire")
+
+
+
+for i in range(2000,3201):
+    if i % 7 == 0 and i % 5 != 0:
+        print(i)
+
+ch=input('donner un chaine de carectere')
+for i in range (len(ch)):
+    if i%2 == 0:
+        ch = ch [:i + ch[(i+1)]:]
+print (ch)
+
+
+
+
+n=int(input('donner le montont'))
+if n>=500 :
+    print(n*50//100)
+elif n>=200 and n<500:
+    print(n*30//100)
+else :
+    print(n*10//100)
+
+
+
+
+
+
+
+
+
