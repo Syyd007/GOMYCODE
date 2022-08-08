@@ -1,0 +1,79 @@
+def largest(t):
+    return max (t)
+print(largest((20,35,19)))
+
+
+
+
+def calculation(x,y):
+    return x+y , x-y
+print (calculation(6,7))
+
+
+
+
+
+
+
+def call (s):
+    call = 0
+    for i in range (len(s)):
+        call=call+s[i]
+    return call
+print (cal([6,7,8]))
+
+def cal (s):
+    call = 1
+    for i in range (len(s)):
+        call=call*s[i]
+    return call
+print (cal([6,7,8]))
+
+
+
+
+def call1 (s):
+    call = 0
+    for i in range (len(s)):
+        call=call+s[i]
+    return call
+print (call1([6,7,8]))
+
+def cal1 (s):
+    call = 1
+    for i in range (len(s)):
+        call=call*s[i]
+    return call
+print (cal1([6,7,8]))
+
+def tot(t):
+    tp = []
+    ti = []
+    for i in range(len(t)):
+        if i % 2 == 0:
+            tp.append(t[i])
+        else:
+            ti.append(t[i])
+    return call1(tp),cal1(ti)
+
+print(tot([3,4,5,1] ) 
+
+
+
+
+
+
+
+
+
+from math import sqrt
+
+def cal (d):
+    c = 50
+    h = 30
+    for i in range (len(d)):
+        print(sqrt((2*c*d[i])/h))
+        
+cal([100,150,180])
+
+
