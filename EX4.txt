@@ -1,0 +1,64 @@
+class Point3D():
+    def __init__(self, x,y,z) 	
+        self. x = x
+        self. y = y
+        self. z = z
+    def tup (self):
+        return (self.x,self.y,self.z)
+my_point= Point3D (2,3,4)
+print (my_point.tup())
+
+
+
+
+
+class rectangle():
+    def __init__(self,l,w):
+        self.width = l
+        self.length = w
+    def perimeter(self):
+        return 2*(self.length+self.width)
+    def area(self):
+        return(self.length*self.width)
+myrectangle=rectangle(3,4)
+print(myrectangle.area(),myrectangle.perimeter())
+
+
+
+
+
+class circle():
+    def __init__(self,r,x,y):
+        self.r = r
+        self.x = x
+        self.y = y
+    def area(self):
+        return self.r **2*3.14
+    def perameter(self):
+        return self.r *2*3.14
+    def inside(self):
+        if self.x//self.y <= self.r:
+            return print('the point is inside the circle')
+        else:
+            return print("the point is not inside the circle")
+            
+newcer = circle(8,30,2)
+print(newcer.area())
+print(newcer.perameter())
+newcer.inside()
+
+
+
+
+
+class bank():
+    def __init__(self,balance,x):
+        self.balance=balance
+        self.x= x 
+    def withdraw (self):
+        return(self.balance-self.x)
+    def deposit (self):
+        return (self.balance+self.x)
+mybank=bank(5000,200)
+print(mybank.withdraw())
+print(mybank.deposit())
