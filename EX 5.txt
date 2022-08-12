@@ -1,0 +1,67 @@
+import numpy as np
+a = np.array([1, 2, 3, 4, 5])
+print(type(a))
+print(a)
+a = a.tolist
+print(type(a))
+
+
+
+
+
+import numpy as np
+n_array=np.array([[1,64,18],[88,19,11],[11,2,8]])
+print(n_array)
+sum = 0
+for i in range(len(n_array)):
+    for j in range(len(n_array)):
+        if i == j:
+            sum = sum + n_array[i][j]
+print(sum)
+
+
+
+
+
+import numpy as np 
+mp=np.array([[1,2,5],[15,2,6],[14,7,0]])
+print(mp)
+x=int(input('donner un entier'))
+for i in range (len(mp)):
+    for j in range (len(mp)):
+        if mp[i][j]< x :
+            print(mp([i][j]))
+
+
+
+
+
+import numpy as np 
+a=np.array([18,16,360,2,3])
+b=np.array([1,0,12,15,8])
+c = np.zeros(len(a))
+for i in range(len(a)):
+    c[i]= a[i] + b[i]
+print(c)
+
+
+
+
+
+import numpy as np
+y=np.array([[1,2,3],[26,16,6],[18,12,24]])
+x=.mean()
+for i in range(len(y)):
+    for j in range(len(y)):
+        y[i][j] = y[i][j]-x
+print(y)
+
+
+
+
+
+
+
+
+
+
