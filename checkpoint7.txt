@@ -1,0 +1,18 @@
+#Write a Python program to read an entire text file
+s = open("ahlem.txt","r")
+"""print(s.read())
+with open("ahlem.txt", "r") as file:
+	for i in range (3):
+	 	first_line = file.readline()
+	 	print(first_line)
+for i in range (3):
+	lines = s.readlines()
+	last_lines = lines[-3:]
+	print(last_lines)"""
+def count_words(filepath):
+   with open(filepath) as s:
+       data = s.read()
+       return len(data.split("\n"))
+print(count_words("ahlem.txt"))
+
+s.close()
