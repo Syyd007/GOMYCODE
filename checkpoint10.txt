@@ -1,0 +1,94 @@
+mylist=[14, "hello", 967]
+mylist[2]
+
+IndexErrorTraceback (most recent call last)
+<ipython-input-1-1590647b98e2> in <module>()
+      1 mylist=[14, "hello", 967]
+----> 2 mylist[6]
+
+IndexError: list index out of range
+"""i can write a number biger than 2"""
+
+import Pandas
+import NumPy
+ImportErrorTraceback (most recent call last)
+<ipython-input-2-3f03fc6488f6> in <module>()
+----> 1 import Pandas
+      2 import NumPy
+
+ImportError: No module named Pandas
+"""the module could not be found"""
+
+File "<ipython-input-7-4a1ff7dd1a67>", line 1
+    Print"hello world"
+                     ^
+SyntaxError: invalid syntax
+"""make sure that all of your Python keywords are spelled correctly"""
+
+mydictionnary={True:"hello",False:"bye", '3':"python"}
+mydictionnary['True']
+KeyErrorTraceback (most recent call last)
+<ipython-input-8-c10781d39470> in <module>()
+      1 mydictionnary={True:"hello",False:"bye", '3':"python"}
+----> 2 mydictionnary['True']
+
+KeyError: 'True'
+"""A Python KeyError exception is what is raised when you try to access a key that isn't in a dictionary"""
+
+i=14
+while i<78:
+print(i)
+i+=1
+File "<ipython-input-9-e05ff9c10475>", line 3
+    print(i)
+        ^
+IndentationError: expected an indented block
+""" occurs when you forget to indent the statements within a compound
+statement or within a user-defined function"""
+
+it=iter([1,2,3])
+next(it)
+next(it)
+next(it)
+next(it)
+StopIterationTraceback (most recent call last)
+<ipython-input-10-dc5f8da513df> in <module>()
+      4 next(it)
+      5 next(it)
+----> 6 next(it)
+
+StopIteration:
+"""an exception which occurred by built-in next() and __next__() method in iterator to signal that iteration is
+done for all items and no more to left to iterate"""
+
+TypeErrorTraceback (most recent call last)
+<ipython-input-12-49adfd1cdc0d> in <module>()
+----> 1 '15'+15
+
+TypeError: cannot concatenate 'str' and 'int' objects
+"""cannot concatenate 'str' and 'int' objects"""
+
+int('python')
+ValueErrorTraceback (most recent call last)
+<ipython-input-13-2dd638f6810b> in <module>()
+----> 1 int('python')
+
+ValueError: invalid literal for int() with base 10: 'python'
+"""invalid literal for int() with base 10 occurs when you convert the string or
+decimal or characters values not formatted as an integer"""
+
+NameErrorTraceback (most recent call last)
+<ipython-input-14-32886514c262> in <module>()
+----> 1 python
+
+NameError: name 'python' is not defined
+"""The Python "NameError: name is not defined" occurs when we try to access 
+a variable or function that is not defined or before it is defined"""
+
+ZeroDivisionErrorTraceback (most recent call last)
+<ipython-input-15-523d4565e4d9> in <module>()
+----> 1 x=19/0
+
+ZeroDivisionError: integer division or modulo by zero
+""" occurs when we use the modulo % operator with an integer and a zero"""
+
